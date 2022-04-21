@@ -11,6 +11,7 @@ export default function Header({ name }) {
         </Link>
       </p>
       <Script
+      id="hj-script"
       strategy="afterInteractive"
       dangerouslySetInnerHTML={{
         __html: `
